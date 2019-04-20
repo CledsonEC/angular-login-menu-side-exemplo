@@ -66,30 +66,6 @@ export class LoginPageComponent extends FormComponent implements OnInit, OnDestr
   }
 
    public login(): void {
-  //   this.submitted = true;
-  //   if (this.formGroup.valid) {
-  //     this.isLoading = true;
-  //     const user = this.formGroup.value;
-  //     // this.authService.logon(user).takeUntil(this.ngUnsubscribe).subscribe(result => {
-  //     //   if (!result.isValid) {
-  //     //     this.result = result;
-  //     //     this.isLoading = false;
-  //     //     if (result.errors.length > 0) {
-  //     //       this._gbErroLogin = true;
-  //     //     }
-  //     //   }
-  //     //   else{
-  //     //     this.authService.authentication(result, user.remember);
-  //     //       if (result.isValid) {
-  //     //         this.authService.loadUser(true);
-  //     //         this.authService.loadPermissions(true);
-  //     //       }
-  //     //   }
-  //     // },
-  //     //   error => {
-  //     //     this.isLoading = false;
-  //     //     this._gbErroLogin = true;
-  //     //   });
-  //   }
+     setTimeout(() => { this.router.navigate(['/home']); }, 0);
    }
 }

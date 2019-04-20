@@ -1,0 +1,36 @@
+<nav class="sidebar-nav">
+  <ul class="nav">
+    <li class="nav-title"> Bem-vindo(a), Nome do Usuário </li>
+    <div style="height:10px;"></div>
+    <li class="nav-item">
+      <div style="width: 90%;margin: auto 0; text-align: center;">
+        <!-- <img src="./assets/img/logo_edp.png" width="50px"> -->
+      </div>
+    </li>
+    <div style="height:10px;"></div>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" [routerLink]="['/home']">
+        <i class="icon-speedometer"></i> Home</a>
+    </li>
+    <li class="divider"></li>
+    <!-- <li class="nav-item nav-dropdown" appNavDropdown *ngFor="let item of itemsMenu$ | async">
+      <a class="nav-link nav-dropdown-toggle" href="javascript: void(0)" appNavDropdownToggle>
+        <i class="{{ item.cssClass }}"></i> {{ item.menuTextCulture }}</a>
+      <ul class="nav-dropdown-items">
+
+        <li class="nav-item" *ngFor="let subItem of item.children">
+
+          <a class="nav-link" routerLinkActive="active" [routerLink]="[subItem.url]">
+
+            <i class="{{ subItem.cssClass }}"></i>
+
+            <div style="display: inline-block; width: calc(100% - 32px) !important;">
+              {{ subItem.menuTextCulture }}
+            </div>
+          </a>
+        </li>
+
+      </ul>
+    </li> -->
+  </ul>
+</nav>

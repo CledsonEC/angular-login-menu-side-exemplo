@@ -16,6 +16,10 @@ import { RootRoutingModule } from './root-routing.module';
 import { SimpleLayoutComponent } from './components/layouts/simple-layout/simple-layout.component';
 import { SharedModule } from '../shared/shared.module';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { FullLayoutComponent } from './components/layouts/full-layout/full-layout.component';
+import { HeaderComponent } from './components/header/header.component';
+import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 // import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
 // import { ErrorPageComponent } from './pages/error-page/error-page.component';
 // import { SidebarComponent } from './components/sidebar/sidebar.component';
@@ -38,6 +42,10 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     // FullLayoutComponent,
     SimpleLayoutComponent,
     HomePageComponent,
+    FullLayoutComponent,
+    HeaderComponent,
+    BreadcrumbComponent,
+    SidebarComponent,
     // BreadcrumbComponent,
     // NAV_DROPDOWN_DIRECTIVES,
     // SIDEBAR_TOGGLE_DIRECTIVES,
